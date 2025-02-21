@@ -273,7 +273,7 @@ img {
     justify-content: center;
     align-items: flex-start;
     gap: 8px;
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features__item-title {
@@ -300,6 +300,10 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.team__item:first-child {
+    width: calc((100% - 72px) / 4);
 }
 
 .container {
