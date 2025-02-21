@@ -8,6 +8,12 @@ body {
     margin: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -165,7 +171,7 @@ body {
     justify-content: center;
     gap: 48px;
     background-color: #2E2F42;
-    padding: 188px 472px;
+    padding: 188px 0;
 }
 
 .container {
@@ -218,7 +224,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    padding: 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .features__title {
@@ -240,6 +247,7 @@ body {
     flex-direction: row;
     align-items: center;
 }
+
 .container {
     max-width: 1158px;
     margin: 0 auto;
@@ -258,13 +266,13 @@ body {
     white-space: nowrap;
     clip-path: inset(100%);
 }
+
 .features__container-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 8px;
-    width: 264px;
     flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -336,17 +344,6 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-  }
-
-.team__container-item {
-    width: 264px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team__item {
@@ -354,37 +351,39 @@ body {
     border-radius: 0px 0px 4px 4px;
     overflow: hidden;
     background-color: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-                0px 1px 1px rgba(46, 47, 66, 0.16), 
-                0px 2px 1px rgba(46, 47, 66, 0.08);
-  }
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .team__card {
-  padding: 32px 0;
-  text-align: center;
+    padding: 32px 0;
+    text-align: center;
 }
 
 .team__image {
-  width: 264px;
-  height: 260px;
+    width: 264px;
+    height: 260px;
 }
 
 .team__name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
-  margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team__position {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
 }
 
 .footer {
@@ -452,6 +451,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio__container {
@@ -467,7 +467,6 @@ body {
 .portfolio__container-item {
     display: flex;
     flex-direction: column;
-    width: 360px;
     height: 420px;
     background-color: #FFFFFF;
     border: 1px solid #E7E9FC;
