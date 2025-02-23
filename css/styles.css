@@ -246,7 +246,6 @@ img {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    width: calc((100% - 72px) / 4);
 }
 
 .container {
@@ -275,7 +274,7 @@ img {
     justify-content: center;
     align-items: flex-start;
     gap: 8px;
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex: 1 1 calc((100% - 3 * 24px) / 4);  
 }
 
 /* .features__container-item:first-child {
