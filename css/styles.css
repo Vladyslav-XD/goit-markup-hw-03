@@ -271,15 +271,15 @@ img {
 .features__container-item {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: flex-start;
     gap: 8px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-/* .features__container-item:first-child {
+.features__container-item:first-child {
     width: calc((100% - 72px) / 4); 
-} */
+}
 
 .features__item-title {
     font-family: "Roboto", sans-serif;
