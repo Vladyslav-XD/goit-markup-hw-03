@@ -244,12 +244,12 @@ img {
     display: flex;
     gap: 24px;
     /* justify-content: center; */
-    flex-direction: row;
-    align-items: center;
+    /* flex-direction: row;
+    align-items: center; */
 }
 
 .container {
-    max-width: 1158px;
+    /* max-width: 1158px; */
     margin: 0 auto;
     padding: 120px 0;
 }
@@ -279,6 +279,7 @@ img {
 
 .features__container-item:first-child {
     width: calc((100% - 72px) / 4); 
+    flex-grow: 0;
 }
 
 .features__item-title {
