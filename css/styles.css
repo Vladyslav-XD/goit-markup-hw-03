@@ -249,7 +249,7 @@ img {
 }
 
 .container {
-    /* max-width: 1158px; */
+    max-width: 1158px;
     margin: 0 auto;
     padding: 120px 0;
 }
@@ -267,19 +267,11 @@ img {
     clip-path: inset(100%);
 }
 
-
 .features__container-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     gap: 8px;
     flex-basis: calc((100% - 3 * 24px) / 4);
-}
-
-.features__container-item:first-child {
-    width: calc((100% - 72px) / 4); 
-    flex-grow: 0;
 }
 
 .features__item-title {
