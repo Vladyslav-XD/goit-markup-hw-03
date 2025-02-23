@@ -268,9 +268,7 @@ img {
 }
 
 .features__container-item {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+   gap: 8px;
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
