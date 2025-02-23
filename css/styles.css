@@ -26,7 +26,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -273,7 +273,7 @@ img {
     justify-content: center;
     align-items: flex-start;
     gap: 8px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .features__container-item:first-child {
