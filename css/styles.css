@@ -246,6 +246,7 @@ img {
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    width: calc((100% - 72px) / 4);
 }
 
 .container {
@@ -267,6 +268,7 @@ img {
     clip-path: inset(100%);
 }
 
+
 .features__container-item {
     display: flex;
     flex-direction: column;
@@ -276,9 +278,9 @@ img {
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
-.features__container-item:first-child {
+/* .features__container-item:first-child {
     width: calc((100% - 72px) / 4); 
-}
+} */
 
 .features__item-title {
     font-family: "Roboto", sans-serif;
