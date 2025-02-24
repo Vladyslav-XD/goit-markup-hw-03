@@ -467,10 +467,10 @@ ul {
 .portfolio__container {
     display: flex;
     flex-wrap: wrap; 
-    flex-direction: row;
+    /* flex-direction: row;
     justify-content: center; 
     column-gap: 24px;
-    row-gap: 48px;
+    row-gap: 48px; */
 }
 
 
@@ -478,9 +478,9 @@ ul {
     /* display: flex;
     flex-direction: column; */
     /* height: 420px; */
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF;
     border: 1px solid #E7E9FC;
-    overflow: hidden;
+    overflow: hidden; */
     width: calc((100% - 48px) / 3);
 }
 
@@ -493,7 +493,6 @@ ul {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
 
 .portfolio__item-img {
     width: 360px;
