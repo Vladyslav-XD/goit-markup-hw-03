@@ -463,22 +463,26 @@ ul {
 
 .portfolio__container {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; */
     column-gap: 24px;
     row-gap: 48px;
 }
 
 
 .portfolio__container-item {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     height: 420px;
     background-color: #FFFFFF;
     border: 1px solid #E7E9FC;
     overflow: hidden;
     width: calc((100% - 48px) / 3);
+}
+
+.portfolio__container-item:first-child {
+    width: calc((100% - 72px) / 4);
 }
 
 .portfolio__info {
