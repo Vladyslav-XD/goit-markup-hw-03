@@ -408,7 +408,7 @@ ul {
     padding: 0 15px;
 }
 
-.footer__logo a {
+.container a {
     display: inline-block;
 }
 
@@ -472,11 +472,9 @@ ul {
 .portfolio__container {
     display: flex;
     flex-wrap: wrap; 
-    /* flex-direction: row;
-    justify-content: center; */
+    justify-content: center;
     column-gap: 24px;
-    /* row-gap: 48px;  */
-    width: 100%;
+    row-gap: 48px; 
 }
 
 .portfolio__container-item {
