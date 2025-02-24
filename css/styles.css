@@ -27,9 +27,9 @@ img {
 }
 
 .container {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -241,7 +241,7 @@ img {
 }
 
 .features__container {
-    display: flex;
+    /* display: flex; */
     gap: 24px;
     /* justify-content: center; */
     /* flex-direction: row;
@@ -269,6 +269,12 @@ img {
 
 .features__container-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 .features__item-title {
