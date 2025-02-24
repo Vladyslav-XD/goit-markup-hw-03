@@ -425,6 +425,10 @@ ul {
     text-decoration: none;
 }
 
+.footer .logo-text {
+    display: inline-block;
+}
+
 .footer .logo-text:last-child {
     color: #f4f4fd;
 }
@@ -465,12 +469,6 @@ ul {
     margin-bottom: 72px;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .portfolio__container {
     display: flex;
     flex-wrap: wrap; 
@@ -478,6 +476,7 @@ ul {
     justify-content: center; */
     column-gap: 24px;
     row-gap: 48px; 
+    width: 100%;
 }
 
 .portfolio__container-item {
