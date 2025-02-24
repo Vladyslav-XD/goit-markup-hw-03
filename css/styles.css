@@ -26,6 +26,10 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
+ .header .container {
+    display: flex;
+ }
+
 .container {
     justify-content: space-between;
     align-items: center;
@@ -33,7 +37,6 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
-
 
 .header .logo {
     font-family: "Raleway", sans-serif;
