@@ -15,14 +15,14 @@ img {
 }
 
 .header {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-left: 156px;
     margin-right: 156px;
     padding: 24px 0;
-    gap: 332px;
+    gap: 332px; */
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -180,7 +180,6 @@ img {
     max-width: 1158px;
     margin: 0 auto;
     padding: 188px 0;
-    text-align: center;
 }
 
 .main__title {
@@ -193,6 +192,7 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .main__btn {
@@ -219,11 +219,6 @@ img {
 }
 
 .features {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -288,7 +283,8 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-bottom: 8px;
+    padding: 0;
+    margin: 0;
 }
 
 .features__item-text {
@@ -297,6 +293,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 0;
+    margin: 0;
 }
 
 .team {
@@ -383,7 +381,8 @@ ul {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
-    margin-bottom: 8px;
+    padding: 0;
+    margin: 0;
 }
 
 .team__position {
@@ -393,6 +392,8 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .footer {
@@ -443,7 +444,8 @@ ul {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
-    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .white-text {
@@ -509,15 +511,16 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
+    padding: 0;
+    margin: 0;
 }
 
 .portfolio__item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
+    padding: 0;
+    margin: 0;
 }
